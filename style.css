@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 25px; 
+  font-weight: bold;
+}
+
+header, section, aside, nav, article, hgroup, footer {
+  display: block;
+}
+
+body {
+  text-align: center;
+}
+
+.agrupar {
+  border: 2px solid;
+  width: 960px;
+  margin: 20px auto;
+}
+
+.cabecera {
+  background: #fffbb9;
+  border: 1px solid #999;
+  padding: 20px;
+}
+
+.cabecera h1 {
+  text-align: left;
+}
+
+.menu {
+  background: #ccc;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.menu li {
+  list-style: none;
+  padding: 5px;
+  display: inline-block;
+}
+
+.seccion {
+  margin: 20px;
+  width: 600px;
+  float: left;
+}
+
+article {
+  background: #fffbcc;
+  border: 1px solid #999;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+time {
+  color: #999;
+}
+
+article footer {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.aside {
+  width: 300px;
+  float: left;
+  margin: 20px 0;
+}
+
+.aside blockquote {
+  border: 1px solid;
+  padding: 50px;
+  background: #fffbb9;
+  margin-bottom: 225px;
+}
+
+.pie_de_pagina {
+  clear: both;
+  padding: 20px;
+  background: grey;
+  color: white;
+}
+
+img {
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+nav li a:hover {
+  background: black;
+  color: white;
+}
+
+footer li {
+  list-style: none;
+  padding: 10px;
+  float: right;
+  right: 25px;
+}
